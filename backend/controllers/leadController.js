@@ -1,6 +1,6 @@
 const pool = require("../config/db")
 
-// GET LEADS
+ 
 
 const getLeads = async (req, res) => {
   try {
@@ -21,7 +21,7 @@ const getLeads = async (req, res) => {
   }
 }
 
-// ADD LEAD
+ 
 
 const addLead = async (req, res) => {
 
